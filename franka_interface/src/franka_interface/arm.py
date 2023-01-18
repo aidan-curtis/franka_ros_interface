@@ -47,7 +47,7 @@ from geometry_msgs.msg import PoseStamped, Wrench
 import franka_interface
 import franka_control
 import franka_dataflow
-from robot_params import RobotParams
+from franka_interface.robot_params import RobotParams
 
 from franka_tools import FrankaFramesInterface, FrankaControllerManagerInterface, JointTrajectoryActionClient, CollisionBehaviourInterface
 
